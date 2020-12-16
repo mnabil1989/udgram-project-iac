@@ -10,9 +10,9 @@ First we should run
 #sh utils/create-stack.sh s3-stack bucket/udagram-s3.yaml bucket/udagram-s3.json
 
 
-#aws s3 cp udagram.zip s3://udagram-s3-store/udagram.zip
+#aws s3 cp udagram.zip s3://udagram-app-nabil
 
 
-#sh create.sh web-stack servers.yml servers.json
+#sh utils/create.sh web-stack server/server-stack-template.yml server/server-parameteres.json
 
 You can access to the final website using this LoadBalancer [link](http://webse-webap-1jwq89zq2hb3o-1982463860.us-west-2.elb.amazonaws.com/)

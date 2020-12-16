@@ -1,0 +1,15 @@
+[
+	{
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "UdacityUdagramProject"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t2.micro"
+    },
+    {
+        "ParameterKey": "InstanceAMI",
+        "ParameterValue": "ami-0e0ee9b8d213788c6"
+    }
+
+]
